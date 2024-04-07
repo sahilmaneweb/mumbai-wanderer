@@ -23,7 +23,7 @@ const Book = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
     formData.append("Total cost", price );
-    formData.append("access_key", "3501a3ba-a6c0-461e-a47e-6de6b09c699f");
+    formData.append("access_key", "Add-Your-own-web3-forms-API-Key");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
