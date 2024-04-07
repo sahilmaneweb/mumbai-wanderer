@@ -1,0 +1,75 @@
+.testimonial{
+    width: 90%;
+    padding: 10px;
+    margin: 20px auto;
+}
+.testimonial-title{
+    font-size: 35px;
+}
+.testimonial-title hr{
+    border: 0;
+    width: 100%;
+    max-width: 600px;
+    height: 4px;
+    margin: 20px 0;
+    background-color: darkgoldenrod;
+    border-radius: 50px;
+}
+.testimonial-slider .slick-slide > div{
+    margin: 10px 20px;
+}
+.testimonial-slider .slick-list{
+    margin: 10px -10px;
+}
+.slick-dots li.slick-active button{
+    background-color: transparent;
+}
+.slick-dots li button:before{
+    color: gold;
+    font-size: 15px;
+    opacity: 0.45;
+    background-color: transparent;
+}
+
+.slick-dots li.slick-active button:before{
+    opacity: 1;
+    color: darkgoldenrod;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: gold;
+    font-size: 20px;
+}
+
+.slick-prev:before{
+    margin-right: 1px;
+}
+.testimonial-card{
+    border-radius: 20px;
+    border: 5px solid black;
+    padding: 10px;
+    height: 100%;
+}
+.testimonial-detail{
+    display: grid;
+    padding: 10px;
+    overflow: hidden;
+    place-items: center start;
+    grid-template-columns: 80px 1fr;
+    gap: 20px;
+}
+.testimonial-image{
+    border: 5px solid gold;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.testimonial-name{
+    font-size: 27px;
+}
+.testimonial-post{
+    display: block;
+    padding: 5px 15px;
+    font-size: 18px;
+}

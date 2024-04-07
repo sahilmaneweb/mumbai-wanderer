@@ -1,0 +1,20 @@
+.app{
+    position: relative;
+}
+.upper-arrow{
+    position: fixed;
+    bottom: 30px;
+    right: 2%;
+    width: 50px;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    background-color: darkgoldenrod;
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upper-arrow img{
+    width: 30px;
+}

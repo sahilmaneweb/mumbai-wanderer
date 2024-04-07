@@ -1,0 +1,35 @@
+.addsection{
+    width: 90%;
+    margin: 20px auto;
+    background: url('../../../assets/poster1.jpeg');
+    padding: 20px;
+    aspect-ratio: 3/0.5;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+}
+.addsection-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.addsection-button{
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px 40px;
+    background-color: gold;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 0 2px 10px black;
+}
+@media (max-width:820px){
+    .addsection-title{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}

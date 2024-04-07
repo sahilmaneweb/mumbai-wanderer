@@ -1,0 +1,22 @@
+.places{
+    width: 90%;
+    margin: 40px auto;
+}
+.places-title{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
+}
+.place-cards{
+    width: 95%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+
+@media (max-width:820px){
+    .places-title{
+        font-size: 30px;
+    }
+}
